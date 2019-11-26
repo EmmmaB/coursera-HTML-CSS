@@ -1,0 +1,44 @@
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            color: #18686457;
+            font-size: 150%
+        }
+        section > p {
+            text-align: center;
+        }
+        div.bouffe {
+            background-color: #77bc99;
+        }
+        p.musique {
+            background-color: #ee70aa;
+        }
+        div.bouffe:hover li:nth-child(2){
+            background-color: #ffdd88;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%
+        }
+
+        ol li {
+            line-height: 2em;
+        }
+
+        a:link, a:visited {
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            display: block;
+            width: 50px;
+            padding: 0.5em;
+            background-color: #e0a030;
+            border: none;
+            /* border-radius: 20px */
+            margin-left: 200px;
+            /* margin-bottom: 5px */
+        }
