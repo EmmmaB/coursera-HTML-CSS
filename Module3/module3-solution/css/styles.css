@@ -1,0 +1,74 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: rgb(150, 170, 160);
+    border-radius: 0;
+    border: 0;
+    height: 70px
+  }
+
+
+button.navbar-toggle {
+    margin-top: 20px;
+}
+  
+   
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+.navbar-brand h1 { 
+    color: rgb(30, 30, 50);
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: .75;
+  }
+
+#collapsible-nav ul {
+    background-color: rgb(100, 180, 140)
+}
+#collapsible-nav a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+#collapsible-nav a:hover {
+    background-color: rgb(190, 250, 210)
+}
+
+main h2 {
+    margin-top: 25px;
+    font-size: 2.4em;
+}
+
+main section.col-md-4{ 
+    margin: 20px auto 20px;
+    padding: 10px
+}
+.section-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+main section div,p {
+    padding: 10px;
+    margin: 0;
+}
+
+#chicken * {
+    background-color: rgb(220, 150, 200);
+}
+#beef * {
+    background-color: rgb(220, 150, 100);
+}
+#sushi * {
+    background-color: rgb(220, 220, 100);
+}
